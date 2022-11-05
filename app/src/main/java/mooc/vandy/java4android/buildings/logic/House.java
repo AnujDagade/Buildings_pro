@@ -36,7 +36,7 @@ public class House extends Building {
         return mPool;
     }
 
-    public void setmOwner(String owner) {
+    public void setOwner(String owner) {
         mOwner = owner;
     }
 
@@ -46,7 +46,30 @@ public class House extends Building {
 
     @Override
     public String toString() {
-        return
+        String msg = "Owner: ";
+        if(hasPool() == true) {
+            msg +=  getOwner() + ";has a pool";
+
+        }
+        if(calcLotArea() > calcBuildArea()) {
+            msg += "; has big open space";
+        }
+
+        return msg;
+    }
+
+
+
+    @Override
+    public boolean equals(Object obj) {
+        if(this == obj) {
+            House home = (House)obj;
+            if( (this.calcBuildArea() == home.calcBuildArea()) && (this.hasPool() == home.hasPool()) ) {
+                return false;
+            }
+        }
+
+        return false;
     }
     
 }
