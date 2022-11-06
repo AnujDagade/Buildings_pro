@@ -1,0 +1,32 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="mooc.vandy.java4android.m7_buildings.test" >
+4
+5    <uses-sdk
+5-->/workspace/Buildings_pro/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17599828124332761903.xml:5:5-74
+6        android:minSdkVersion="22"
+6-->/workspace/Buildings_pro/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17599828124332761903.xml:5:15-41
+7        android:targetSdkVersion="30" />
+7-->/workspace/Buildings_pro/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17599828124332761903.xml:5:42-71
+8
+9    <instrumentation
+9-->/workspace/Buildings_pro/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17599828124332761903.xml:11:5-15:86
+10        android:name="android.test.InstrumentationTestRunner"
+10-->/workspace/Buildings_pro/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17599828124332761903.xml:11:22-75
+11        android:functionalTest="false"
+11-->/workspace/Buildings_pro/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17599828124332761903.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/workspace/Buildings_pro/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17599828124332761903.xml:13:22-53
+13        android:label="Tests for mooc.vandy.java4android.m7_buildings"
+13-->/workspace/Buildings_pro/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17599828124332761903.xml:15:22-84
+14        android:targetPackage="mooc.vandy.java4android.m7_buildings" />
+14-->/workspace/Buildings_pro/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17599828124332761903.xml:12:22-82
+15
+16    <application android:debuggable="true" >
+16-->/workspace/Buildings_pro/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17599828124332761903.xml:7:5-9:19
+17        <uses-library android:name="android.test.runner" />
+17-->/workspace/Buildings_pro/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17599828124332761903.xml:8:9-60
+17-->/workspace/Buildings_pro/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest17599828124332761903.xml:8:23-57
+18    </application>
+19
+20</manifest>

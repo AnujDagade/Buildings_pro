@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.2.0" type="incidents">
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="12"
+            column="6"
+            startOffset="528"
+            endLine="12"
+            endColumn="14"
+            endOffset="536"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Size of Pattern...&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="18"
+            column="9"
+            startOffset="737"
+            endLine="18"
+            endColumn="42"
+            endOffset="770"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Process&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="29"
+            column="9"
+            startOffset="1114"
+            endLine="29"
+            endColumn="31"
+            endOffset="1136"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Enter Size:&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="37"
+            column="9"
+            startOffset="1378"
+            endLine="37"
+            endColumn="35"
+            endOffset="1404"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Output Will Appear Here...&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="53"
+            column="13"
+            startOffset="1972"
+            endLine="53"
+            endColumn="54"
+            endOffset="2013"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/mooc/vandy/java4android/buildings/ui/MainActivity.java"
+            line="78"
+            column="25"
+            startOffset="1796"
+            endLine="78"
+            endColumn="56"
+            endOffset="1827"/>
+    </incident>
+
+</incidents>
