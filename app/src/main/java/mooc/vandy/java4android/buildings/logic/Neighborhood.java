@@ -1,7 +1,5 @@
 package mooc.vandy.java4android.buildings.logic;
 
-import java.io.FileNotFoundException;
-
 import mooc.vandy.java4android.buildings.ui.OutputInterface;
 
 /**
@@ -32,7 +30,7 @@ public final class Neighborhood {
         int totalArea = 0;
 
         for(int i=0; i<buildings.length; i++) {
-            totalArea += buildings[i].calcBuildArea();
+            totalArea += buildings[i].calcBuildingArea();
             totalArea += buildings[i].calcLotArea();
         }
 

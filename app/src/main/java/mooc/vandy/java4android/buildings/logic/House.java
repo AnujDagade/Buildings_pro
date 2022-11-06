@@ -51,7 +51,7 @@ public class House extends Building {
             msg +=  getOwner() + ";has a pool";
 
         }
-        if(calcLotArea() > calcBuildArea()) {
+        if(calcLotArea() > calcBuildingArea()) {
             msg += "; has big open space";
         }
 
@@ -64,7 +64,7 @@ public class House extends Building {
     public boolean equals(Object obj) {
         if(this == obj) {
             House home = (House)obj;
-            if( (this.calcBuildArea() == home.calcBuildArea()) && (this.hasPool() == home.hasPool()) ) {
+            if( (this.calcBuildingArea() == home.calcBuildingArea()) && (this.hasPool() == home.hasPool()) ) {
                 return false;
             }
         }

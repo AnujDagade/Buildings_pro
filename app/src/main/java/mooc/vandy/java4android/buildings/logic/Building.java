@@ -50,7 +50,7 @@ public class Building {
         mLotWidth = width;
     }
 
-    public int calcBuildArea() {
+    public int calcBuildingArea() {
         return mLength * mWidth;
     }
 
