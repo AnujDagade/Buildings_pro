@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-09T12:31:21" hostname="anujdagade-buildingspro-tgb9o3ci6kf" time="0.284">
+<testsuite name="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-09T12:41:03" hostname="anujdagade-buildingspro-tgb9o3ci6kf" time="1.504">
   <properties/>
-  <testcase name="graderPreview" classname="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" time="0.284"/>
+  <testcase name="graderPreview" classname="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" time="1.504"/>
   <system-out><![CDATA[
 
 Your assignment HAS NOT BEEN SUBMITTED. The following test results only
@@ -18,25 +18,21 @@ Coursera.
 --------Your solution received points for the following grading rubrics:--------
 
 
-testBuildingArea
-Rubric Score: 1.0/1.0
-Goal: The goal of this evaluation is to testBuildingArea
-Reference: This Test fails when: The Building area miscalculated
-
-testBuildingLotArea
-Rubric Score: 1.0/1.0
-Goal: The goal of this evaluation is to testBuildingLotArea
-Reference: This Test fails when: The Building lot area miscalculated
-
-testBuildingSetAndGet
-Rubric Score: 2.0/2.0
-Goal: The goal of this evaluation is to testBuildingSetAndGet
-Reference: This Test fails when: 1 or more of the Building.Set/Get had a problem
-
 testOfficeConstructor
 Rubric Score: 1.0/1.0
 Goal: The goal of this evaluation is to testOfficeConstructor
 Reference: This Test fails when: The Office doesn't have 0 default parking spots
+
+testSetSpaces
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to testSetSpaces
+Reference: This Test fails when: The Number of parking spaces was set
+incorrectly
+
+testBuildingArea
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to testBuildingArea
+Reference: This Test fails when: The Building area miscalculated
 
 testOfficeString
 Rubric Score: 1.0/1.0
@@ -48,18 +44,6 @@ Rubric Score: 1.0/1.0
 Goal: The goal of this evaluation is to testOfficeArea
 Reference: This Test fails when: The Office area miscalculated - check class
 hierarchy
-
-testOfficeLotArea
-Rubric Score: 1.0/1.0
-Goal: The goal of this evaluation is to testOfficeLotArea
-Reference: This Test fails when: The Office lot area miscalculated - check class
-hierarchy
-
-testSetSpaces
-Rubric Score: 1.0/1.0
-Goal: The goal of this evaluation is to testSetSpaces
-Reference: This Test fails when: The Number of parking spaces was set
-incorrectly
 
 testHouseOwner
 Rubric Score: 1.0/1.0
@@ -76,6 +60,22 @@ Rubric Score: 1.0/1.0
 Goal: The goal of this evaluation is to testHouseAreas
 Reference: This Test fails when: The House area/lot area miscalculated - check
 class hierarchy
+
+testBuildingLotArea
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to testBuildingLotArea
+Reference: This Test fails when: The Building lot area miscalculated
+
+testBuildingSetAndGet
+Rubric Score: 2.0/2.0
+Goal: The goal of this evaluation is to testBuildingSetAndGet
+Reference: This Test fails when: 1 or more of the Building.Set/Get had a problem
+
+testOfficeLotArea
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to testOfficeLotArea
+Reference: This Test fails when: The Office lot area miscalculated - check class
+hierarchy
 
 testCottageSecondFloor
 Rubric Score: 1.0/1.0

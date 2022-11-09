@@ -47,10 +47,16 @@ public class House extends Building {
     @Override
     public String toString() {
         String msg = "Owner: ";
-        if(hasPool() == true) {
-            msg +=  getOwner() + ";has a pool";
 
-        }
+        if(getOwner().equals(""))
+            msg += "n/a";
+        else
+            msg += getOwner();
+
+        if(hasPool() == true)
+            msg +=   ";has a pool";
+
+
         if(calcLotArea() > calcBuildingArea()) {
             msg += "; has big open space";
         }
