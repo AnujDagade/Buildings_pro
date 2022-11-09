@@ -15,16 +15,6 @@ Coursera.
 Q--------Your solution received points for the following grading rubrics:--------
 
 
-testBuildingLotArea
-Rubric Score: 1.0/1.0
-<Goal: The goal of this evaluation is to testBuildingLotArea
-EReference: This Test fails when: The Building lot area miscalculated
-
-testOfficeConstructor
-Rubric Score: 1.0/1.0
->Goal: The goal of this evaluation is to testOfficeConstructor
-QReference: This Test fails when: The Office doesn't have 0 default parking spots
-
 testSetSpaces
 Rubric Score: 1.0/1.0
 6Goal: The goal of this evaluation is to testSetSpaces
@@ -62,6 +52,11 @@ Coursera.
 9Goal: The goal of this evaluation is to testBuildingArea
 AReference: This Test fails when: The Building area miscalculated
 
+testBuildingLotArea
+Rubric Score: 1.0/1.0
+<Goal: The goal of this evaluation is to testBuildingLotArea
+EReference: This Test fails when: The Building lot area miscalculated
+
 testBuildingSetAndGet
 Rubric Score: 2.0/2.0
 >Goal: The goal of this evaluation is to testBuildingSetAndGet
@@ -85,6 +80,11 @@ hierarchy
 QReference: This Test fails when: The Office lot area miscalculated - check class
 
 hierarchy
+
+testOfficeConstructor
+Rubric Score: 1.0/1.0
+>Goal: The goal of this evaluation is to testOfficeConstructor
+QReference: This Test fails when: The Office doesn't have 0 default parking spots
 
 Q----------Your solution missed points on the following grading rubrics:---------
 

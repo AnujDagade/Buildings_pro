@@ -54,7 +54,7 @@ public class House extends Building {
             msg += getOwner();
 
         if(hasPool() == true)
-            msg +=   ";has a pool";
+            msg +=   "; has a pool";
 
 
         if((calcLotArea() - calcBuildingArea()) > calcBuildingArea()) {

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mooc.vandy.java4android.buildings.logic.UnitTests" tests="17" skipped="0" failures="4" errors="0" timestamp="2022-11-09T13:09:12" hostname="anujdagade-buildingspro-tgb9o3ci6kf" time="0.031">
+<testsuite name="mooc.vandy.java4android.buildings.logic.UnitTests" tests="17" skipped="0" failures="4" errors="0" timestamp="2022-11-09T13:30:56" hostname="anujdagade-buildingspro-tgb9o3ci6kf" time="0.078">
   <properties/>
-  <testcase name="testCottageSecondFloor" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.01"/>
-  <testcase name="testHouseToString" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.002">
+  <testcase name="testCottageSecondFloor" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.008"/>
+  <testcase name="testHouseToString" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.003">
     <failure message="org.junit.ComparisonFailure: expected:&lt;...er: John Adams; has [a ]big open space&gt; but was:&lt;...er: John Adams; has []big open space&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;...er: John Adams; has [a ]big open space&gt; but was:&lt;...er: John Adams; has []big open space&gt;
 	at org.junit.Assert.assertEquals(Assert.java:117)
 	at org.junit.Assert.assertEquals(Assert.java:146)
@@ -43,9 +43,9 @@
 </failure>
   </testcase>
   <testcase name="testOfficeArea" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.001"/>
-  <testcase name="testBuildingSetAndGet" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.001"/>
+  <testcase name="testBuildingSetAndGet" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.002"/>
   <testcase name="testOfficeString" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.0"/>
-  <testcase name="testNeighborhoodArea" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.001">
+  <testcase name="testNeighborhoodArea" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.002">
     <failure message="java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;10&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;10&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -68,8 +68,8 @@
   </testcase>
   <testcase name="testBuildingLotArea" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.001"/>
   <testcase name="testBuildingArea" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.001"/>
-  <testcase name="testHouseEquals" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.001">
-    <failure message="java.lang.AssertionError: expected:&lt;Owner: Thomas Jefferson;has a pool; has big open space&gt; but was:&lt;Owner: James Madison;has a pool; has big open space&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;Owner: Thomas Jefferson;has a pool; has big open space&gt; but was:&lt;Owner: James Madison;has a pool; has big open space&gt;
+  <testcase name="testHouseEquals" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.002">
+    <failure message="java.lang.AssertionError: expected:&lt;Owner: Thomas Jefferson; has a pool; has big open space&gt; but was:&lt;Owner: James Madison; has a pool; has big open space&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;Owner: Thomas Jefferson; has a pool; has big open space&gt; but was:&lt;Owner: James Madison; has a pool; has big open space&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
 	at org.junit.Assert.assertEquals(Assert.java:120)
@@ -89,13 +89,13 @@
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="testOfficeConstructor" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.0"/>
-  <testcase name="testCottageSingleFloor" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.001"/>
-  <testcase name="testOfficeLotArea" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.001"/>
-  <testcase name="testHouseAreas" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.0"/>
-  <testcase name="testSetSpaces" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.0"/>
-  <testcase name="testHouseOwner" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.002"/>
-  <testcase name="testHousePool" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.001"/>
+  <testcase name="testOfficeConstructor" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.014"/>
+  <testcase name="testCottageSingleFloor" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.007"/>
+  <testcase name="testOfficeLotArea" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.023"/>
+  <testcase name="testHouseAreas" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.002"/>
+  <testcase name="testSetSpaces" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.001"/>
+  <testcase name="testHouseOwner" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.003"/>
+  <testcase name="testHousePool" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
