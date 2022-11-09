@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-09T13:30:54" hostname="anujdagade-buildingspro-tgb9o3ci6kf" time="0.209">
+<testsuite name="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-09T13:41:05" hostname="anujdagade-buildingspro-tgb9o3ci6kf" time="0.388">
   <properties/>
-  <testcase name="graderPreview" classname="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" time="0.209"/>
+  <testcase name="graderPreview" classname="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" time="0.388"/>
   <system-out><![CDATA[
 
 Your assignment HAS NOT BEEN SUBMITTED. The following test results only
 estimate your grade.
 
 
-Your estimated score is: 14.0/18
+Your estimated score is: 16.0/18
 (This is not your actual grade for this assignment, just an estimate. Your
 official grade will be calculated after you submit your submission.zip file to
 Coursera.
@@ -17,6 +17,11 @@ Coursera.
 ------------------------------Assignment Evaluation-----------------------------
 --------Your solution received points for the following grading rubrics:--------
 
+
+testOfficeConstructor
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to testOfficeConstructor
+Reference: This Test fails when: The Office doesn't have 0 default parking spots
 
 testSetSpaces
 Rubric Score: 1.0/1.0
@@ -40,6 +45,11 @@ Goal: The goal of this evaluation is to testHouseAreas
 Reference: This Test fails when: The House area/lot area miscalculated - check
 class hierarchy
 
+testHouseToString
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to testHouseToString
+Reference: This Test fails when: The House.toString() produced unexpected output
+
 testCottageSecondFloor
 Rubric Score: 1.0/1.0
 Goal: The goal of this evaluation is to testCottageSecondFloor
@@ -49,6 +59,11 @@ testCottageSingleFloor
 Rubric Score: 1.0/1.0
 Goal: The goal of this evaluation is to testCottageSingleFloor
 Reference: This Test fails when: The Single story cottage failed
+
+testNeighborhoodArea
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to testNeighborhoodArea
+Reference: This Test fails when: The Neighborhood area calculation was wrong
 
 testBuildingArea
 Rubric Score: 1.0/1.0
@@ -82,11 +97,6 @@ Goal: The goal of this evaluation is to testOfficeLotArea
 Reference: This Test fails when: The Office lot area miscalculated - check class
 hierarchy
 
-testOfficeConstructor
-Rubric Score: 1.0/1.0
-Goal: The goal of this evaluation is to testOfficeConstructor
-Reference: This Test fails when: The Office doesn't have 0 default parking spots
-
 ----------Your solution missed points on the following grading rubrics:---------
 
 
@@ -95,20 +105,10 @@ Rubric Score: 0.0/1.0
 Goal: The goal of this evaluation is to testOfficeEquals
 Reference: This Test fails when: The Office equals() is wrong
 
-testHouseToString
-Rubric Score: 0.0/1.0
-Goal: The goal of this evaluation is to testHouseToString
-Reference: This Test fails when: The House.toString() produced unexpected output
-
 testHouseEquals
 Rubric Score: 0.0/1.0
 Goal: The goal of this evaluation is to testHouseEquals
 Reference: This Test fails when: The House equals method failed
-
-testNeighborhoodArea
-Rubric Score: 0.0/1.0
-Goal: The goal of this evaluation is to testNeighborhoodArea
-Reference: This Test fails when: The Neighborhood area calculation was wrong
 
 
 ]]></system-out>

@@ -4,7 +4,7 @@
 estimate your grade.
 
 
-!Your estimated score is: 14.0/18
+!Your estimated score is: 16.0/18
 K(This is not your actual grade for this assignment, just an estimate. Your
 Oofficial grade will be calculated after you submit your submission.zip file to
 
@@ -14,6 +14,11 @@ Coursera.
 Q------------------------------Assignment Evaluation-----------------------------
 Q--------Your solution received points for the following grading rubrics:--------
 
+
+testOfficeConstructor
+Rubric Score: 1.0/1.0
+>Goal: The goal of this evaluation is to testOfficeConstructor
+QReference: This Test fails when: The Office doesn't have 0 default parking spots
 
 testSetSpaces
 Rubric Score: 1.0/1.0
@@ -37,6 +42,11 @@ Coursera.
 OReference: This Test fails when: The House area/lot area miscalculated - check
 class hierarchy
 
+testHouseToString
+Rubric Score: 1.0/1.0
+:Goal: The goal of this evaluation is to testHouseToString
+QReference: This Test fails when: The House.toString() produced unexpected output
+
 testCottageSecondFloor
 Rubric Score: 1.0/1.0
 ?Goal: The goal of this evaluation is to testCottageSecondFloor
@@ -46,6 +56,11 @@ Coursera.
 Rubric Score: 1.0/1.0
 ?Goal: The goal of this evaluation is to testCottageSingleFloor
 AReference: This Test fails when: The Single story cottage failed
+
+testNeighborhoodArea
+Rubric Score: 1.0/1.0
+=Goal: The goal of this evaluation is to testNeighborhoodArea
+MReference: This Test fails when: The Neighborhood area calculation was wrong
 
 testBuildingArea
 Rubric Score: 1.0/1.0
@@ -81,11 +96,6 @@ hierarchy
 
 hierarchy
 
-testOfficeConstructor
-Rubric Score: 1.0/1.0
->Goal: The goal of this evaluation is to testOfficeConstructor
-QReference: This Test fails when: The Office doesn't have 0 default parking spots
-
 Q----------Your solution missed points on the following grading rubrics:---------
 
 
@@ -94,19 +104,9 @@ hierarchy
 9Goal: The goal of this evaluation is to testOfficeEquals
 >Reference: This Test fails when: The Office equals() is wrong
 
-testHouseToString
-Rubric Score: 0.0/1.0
-:Goal: The goal of this evaluation is to testHouseToString
-QReference: This Test fails when: The House.toString() produced unexpected output
-
 testHouseEquals
 Rubric Score: 0.0/1.0
 8Goal: The goal of this evaluation is to testHouseEquals
 @Reference: This Test fails when: The House equals method failed
-
-testNeighborhoodArea
-Rubric Score: 0.0/1.0
-=Goal: The goal of this evaluation is to testNeighborhoodArea
-MReference: This Test fails when: The Neighborhood area calculation was wrong
 
 
