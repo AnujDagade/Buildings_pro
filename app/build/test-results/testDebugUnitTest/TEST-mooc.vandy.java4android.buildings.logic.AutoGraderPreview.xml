@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-06T14:20:05" hostname="anujdagade-buildingspro-tgb9o3ci6kf" time="0.38">
+<testsuite name="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-09T11:28:32" hostname="anujdagade-buildingspro-tgb9o3ci6kf" time="0.053">
   <properties/>
-  <testcase name="graderPreview" classname="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" time="0.38"/>
+  <testcase name="graderPreview" classname="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" time="0.053"/>
   <system-out><![CDATA[
 
 Your assignment HAS NOT BEEN SUBMITTED. The following test results only
@@ -17,6 +17,23 @@ Coursera.
 ------------------------------Assignment Evaluation-----------------------------
 --------Your solution received points for the following grading rubrics:--------
 
+
+testOfficeArea
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to testOfficeArea
+Reference: This Test fails when: The Office area miscalculated - check class
+hierarchy
+
+testBuildingSetAndGet
+Rubric Score: 2.0/2.0
+Goal: The goal of this evaluation is to testBuildingSetAndGet
+Reference: This Test fails when: 1 or more of the Building.Set/Get had a problem
+
+testOfficeLotArea
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to testOfficeLotArea
+Reference: This Test fails when: The Office lot area miscalculated - check class
+hierarchy
 
 testSetSpaces
 Rubric Score: 1.0/1.0
@@ -50,37 +67,20 @@ Rubric Score: 1.0/1.0
 Goal: The goal of this evaluation is to testCottageSingleFloor
 Reference: This Test fails when: The Single story cottage failed
 
-testOfficeArea
+testBuildingLotArea
 Rubric Score: 1.0/1.0
-Goal: The goal of this evaluation is to testOfficeArea
-Reference: This Test fails when: The Office area miscalculated - check class
-hierarchy
+Goal: The goal of this evaluation is to testBuildingLotArea
+Reference: This Test fails when: The Building lot area miscalculated
 
 testBuildingArea
 Rubric Score: 1.0/1.0
 Goal: The goal of this evaluation is to testBuildingArea
 Reference: This Test fails when: The Building area miscalculated
 
-testBuildingLotArea
-Rubric Score: 1.0/1.0
-Goal: The goal of this evaluation is to testBuildingLotArea
-Reference: This Test fails when: The Building lot area miscalculated
-
 testOfficeConstructor
 Rubric Score: 1.0/1.0
 Goal: The goal of this evaluation is to testOfficeConstructor
 Reference: This Test fails when: The Office doesn't have 0 default parking spots
-
-testBuildingSetAndGet
-Rubric Score: 2.0/2.0
-Goal: The goal of this evaluation is to testBuildingSetAndGet
-Reference: This Test fails when: 1 or more of the Building.Set/Get had a problem
-
-testOfficeLotArea
-Rubric Score: 1.0/1.0
-Goal: The goal of this evaluation is to testOfficeLotArea
-Reference: This Test fails when: The Office lot area miscalculated - check class
-hierarchy
 
 ----------Your solution missed points on the following grading rubrics:---------
 
