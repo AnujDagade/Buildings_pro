@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-09T12:41:17" hostname="anujdagade-buildingspro-tgb9o3ci6kf" time="1.498">
+<testsuite name="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-09T12:52:42" hostname="anujdagade-buildingspro-tgb9o3ci6kf" time="0.076">
   <properties/>
-  <testcase name="graderPreview" classname="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" time="1.498"/>
+  <testcase name="graderPreview" classname="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" time="0.076"/>
   <system-out><![CDATA[
 
 Your assignment HAS NOT BEEN SUBMITTED. The following test results only
@@ -17,16 +17,6 @@ Coursera.
 ------------------------------Assignment Evaluation-----------------------------
 --------Your solution received points for the following grading rubrics:--------
 
-
-testCottageSecondFloor
-Rubric Score: 1.0/1.0
-Goal: The goal of this evaluation is to testCottageSecondFloor
-Reference: This Test fails when: The Two story cottage failed
-
-testCottageSingleFloor
-Rubric Score: 1.0/1.0
-Goal: The goal of this evaluation is to testCottageSingleFloor
-Reference: This Test fails when: The Single story cottage failed
 
 testBuildingArea
 Rubric Score: 1.0/1.0
@@ -87,13 +77,18 @@ Goal: The goal of this evaluation is to testHouseAreas
 Reference: This Test fails when: The House area/lot area miscalculated - check
 class hierarchy
 
+testCottageSecondFloor
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to testCottageSecondFloor
+Reference: This Test fails when: The Two story cottage failed
+
+testCottageSingleFloor
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to testCottageSingleFloor
+Reference: This Test fails when: The Single story cottage failed
+
 ----------Your solution missed points on the following grading rubrics:---------
 
-
-testNeighborhoodArea
-Rubric Score: 0.0/1.0
-Goal: The goal of this evaluation is to testNeighborhoodArea
-Reference: This Test fails when: The Neighborhood area calculation was wrong
 
 testOfficeEquals
 Rubric Score: 0.0/1.0
@@ -109,6 +104,11 @@ testHouseEquals
 Rubric Score: 0.0/1.0
 Goal: The goal of this evaluation is to testHouseEquals
 Reference: This Test fails when: The House equals method failed
+
+testNeighborhoodArea
+Rubric Score: 0.0/1.0
+Goal: The goal of this evaluation is to testNeighborhoodArea
+Reference: This Test fails when: The Neighborhood area calculation was wrong
 
 
 ]]></system-out>
