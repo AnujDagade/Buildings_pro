@@ -15,11 +15,6 @@ Coursera.
 Q--------Your solution received points for the following grading rubrics:--------
 
 
-testBuildingArea
-Rubric Score: 1.0/1.0
-9Goal: The goal of this evaluation is to testBuildingArea
-AReference: This Test fails when: The Building area miscalculated
-
 testBuildingLotArea
 Rubric Score: 1.0/1.0
 <Goal: The goal of this evaluation is to testBuildingLotArea
@@ -29,6 +24,11 @@ Coursera.
 Rubric Score: 2.0/2.0
 >Goal: The goal of this evaluation is to testBuildingSetAndGet
 QReference: This Test fails when: 1 or more of the Building.Set/Get had a problem
+
+testBuildingArea
+Rubric Score: 1.0/1.0
+9Goal: The goal of this evaluation is to testBuildingArea
+AReference: This Test fails when: The Building area miscalculated
 
 testOfficeString
 Rubric Score: 1.0/1.0

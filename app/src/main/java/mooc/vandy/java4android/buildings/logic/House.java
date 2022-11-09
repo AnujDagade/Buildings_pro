@@ -7,7 +7,7 @@ public class House extends Building {
 
     // TODO - Put your code here.
 
-    private String mOwner;
+    private String mOwner = new String();
     private boolean mPool;
 
     public House(int length, int width, int lotLength, int lotWidth) {
