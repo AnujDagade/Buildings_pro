@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-09T11:31:17" hostname="anujdagade-buildingspro-tgb9o3ci6kf" time="0.106">
+<testsuite name="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-09T12:31:21" hostname="anujdagade-buildingspro-tgb9o3ci6kf" time="0.284">
   <properties/>
-  <testcase name="graderPreview" classname="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" time="0.106"/>
+  <testcase name="graderPreview" classname="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" time="0.284"/>
   <system-out><![CDATA[
 
 Your assignment HAS NOT BEEN SUBMITTED. The following test results only
 estimate your grade.
 
 
-Your estimated score is: 13.0/18
+Your estimated score is: 14.0/18
 (This is not your actual grade for this assignment, just an estimate. Your
 official grade will be calculated after you submit your submission.zip file to
 Coursera.
@@ -33,6 +33,16 @@ Rubric Score: 2.0/2.0
 Goal: The goal of this evaluation is to testBuildingSetAndGet
 Reference: This Test fails when: 1 or more of the Building.Set/Get had a problem
 
+testOfficeConstructor
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to testOfficeConstructor
+Reference: This Test fails when: The Office doesn't have 0 default parking spots
+
+testOfficeString
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to testOfficeString
+Reference: This Test fails when: The Office toString() method is incorrect
+
 testOfficeArea
 Rubric Score: 1.0/1.0
 Goal: The goal of this evaluation is to testOfficeArea
@@ -44,11 +54,6 @@ Rubric Score: 1.0/1.0
 Goal: The goal of this evaluation is to testOfficeLotArea
 Reference: This Test fails when: The Office lot area miscalculated - check class
 hierarchy
-
-testOfficeConstructor
-Rubric Score: 1.0/1.0
-Goal: The goal of this evaluation is to testOfficeConstructor
-Reference: This Test fails when: The Office doesn't have 0 default parking spots
 
 testSetSpaces
 Rubric Score: 1.0/1.0
@@ -84,11 +89,6 @@ Reference: This Test fails when: The Single story cottage failed
 
 ----------Your solution missed points on the following grading rubrics:---------
 
-
-testOfficeString
-Rubric Score: 0.0/1.0
-Goal: The goal of this evaluation is to testOfficeString
-Reference: This Test fails when: The Office toString() method is incorrect
 
 testOfficeEquals
 Rubric Score: 0.0/1.0

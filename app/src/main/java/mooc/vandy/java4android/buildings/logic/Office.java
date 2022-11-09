@@ -5,7 +5,7 @@ package mooc.vandy.java4android.buildings.logic;
  */
 public class Office extends Building {
 
-    private String  mBusinessName;
+    private String  mBusinessName = new String();
     private int mParkingSpaces;
     private static int sTotalOffices = 0;
 
@@ -53,7 +53,7 @@ public class Office extends Building {
     public String toString() {
         String msg = "Business: ";
 
-        if(getBusinessName().equals(null)) {
+        if(getBusinessName().equals("")) {
             msg += "unoccupied";
         }
         else {

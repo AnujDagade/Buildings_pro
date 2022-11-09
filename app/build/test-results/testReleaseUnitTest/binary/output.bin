@@ -4,7 +4,7 @@
 estimate your grade.
 
 
-!Your estimated score is: 13.0/18
+!Your estimated score is: 14.0/18
 K(This is not your actual grade for this assignment, just an estimate. Your
 Oofficial grade will be calculated after you submit your submission.zip file to
 
@@ -29,6 +29,11 @@ Coursera.
 Rubric Score: 2.0/2.0
 >Goal: The goal of this evaluation is to testBuildingSetAndGet
 QReference: This Test fails when: 1 or more of the Building.Set/Get had a problem
+
+testOfficeString
+Rubric Score: 1.0/1.0
+9Goal: The goal of this evaluation is to testOfficeString
+KReference: This Test fails when: The Office toString() method is incorrect
 
 testOfficeArea
 Rubric Score: 1.0/1.0
@@ -84,16 +89,6 @@ hierarchy
 Q----------Your solution missed points on the following grading rubrics:---------
 
 
-testNeighborhoodArea
-Rubric Score: 0.0/1.0
-=Goal: The goal of this evaluation is to testNeighborhoodArea
-MReference: This Test fails when: The Neighborhood area calculation was wrong
-
-testOfficeString
-Rubric Score: 0.0/1.0
-9Goal: The goal of this evaluation is to testOfficeString
-KReference: This Test fails when: The Office toString() method is incorrect
-
 testOfficeEquals
 Rubric Score: 0.0/1.0
 9Goal: The goal of this evaluation is to testOfficeEquals
@@ -108,5 +103,10 @@ hierarchy
 Rubric Score: 0.0/1.0
 8Goal: The goal of this evaluation is to testHouseEquals
 @Reference: This Test fails when: The House equals method failed
+
+testNeighborhoodArea
+Rubric Score: 0.0/1.0
+=Goal: The goal of this evaluation is to testNeighborhoodArea
+MReference: This Test fails when: The Neighborhood area calculation was wrong
 
 

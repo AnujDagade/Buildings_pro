@@ -17,6 +17,11 @@ Rubric Score: 2.0/2.0
 Goal: The goal of this evaluation is to testBuildingSetAndGet
 Reference: This Test fails when: 1 or more of the Building.Set/Get had a problem
 
+testOfficeString
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to testOfficeString
+Reference: This Test fails when: The Office toString() method is incorrect
+
 testOfficeArea
 Rubric Score: 1.0/1.0
 Goal: The goal of this evaluation is to testOfficeArea
@@ -68,11 +73,6 @@ Reference: This Test fails when: The Single story cottage failed
 
 ----------Your solution missed points on the following grading rubrics:---------
 
-
-testOfficeString
-Rubric Score: 0.0/1.0
-Goal: The goal of this evaluation is to testOfficeString
-Reference: This Test fails when: The Office toString() method is incorrect
 
 testOfficeEquals
 Rubric Score: 0.0/1.0
