@@ -35,8 +35,8 @@ INJECTED from /workspace/Buildings_pro/app/src/main/AndroidManifest.xml:2:1-20:1
 INJECTED from /workspace/Buildings_pro/app/src/main/AndroidManifest.xml:2:1-20:12
 INJECTED from /workspace/Buildings_pro/app/src/main/AndroidManifest.xml:2:1-20:12
 	package
+		ADDED from /workspace/Buildings_pro/app/src/main/AndroidManifest.xml:3:11-54
 		INJECTED from /workspace/Buildings_pro/app/src/main/AndroidManifest.xml
-		ADDED from /workspace/Buildings_pro/app/src/main/AndroidManifest.xml:2:1-20:12
 		INJECTED from /workspace/Buildings_pro/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /workspace/Buildings_pro/app/src/main/AndroidManifest.xml

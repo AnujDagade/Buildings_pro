@@ -15,6 +15,21 @@ Coursera.
 Q--------Your solution received points for the following grading rubrics:--------
 
 
+testBuildingArea
+Rubric Score: 1.0/1.0
+9Goal: The goal of this evaluation is to testBuildingArea
+AReference: This Test fails when: The Building area miscalculated
+
+testBuildingLotArea
+Rubric Score: 1.0/1.0
+<Goal: The goal of this evaluation is to testBuildingLotArea
+EReference: This Test fails when: The Building lot area miscalculated
+
+testBuildingSetAndGet
+Rubric Score: 2.0/2.0
+>Goal: The goal of this evaluation is to testBuildingSetAndGet
+QReference: This Test fails when: 1 or more of the Building.Set/Get had a problem
+
 testOfficeArea
 Rubric Score: 1.0/1.0
 7Goal: The goal of this evaluation is to testOfficeArea
@@ -22,17 +37,17 @@ Coursera.
 
 hierarchy
 
-testBuildingSetAndGet
-Rubric Score: 2.0/2.0
->Goal: The goal of this evaluation is to testBuildingSetAndGet
-QReference: This Test fails when: 1 or more of the Building.Set/Get had a problem
-
 testOfficeLotArea
 Rubric Score: 1.0/1.0
 :Goal: The goal of this evaluation is to testOfficeLotArea
 QReference: This Test fails when: The Office lot area miscalculated - check class
 
 hierarchy
+
+testOfficeConstructor
+Rubric Score: 1.0/1.0
+>Goal: The goal of this evaluation is to testOfficeConstructor
+QReference: This Test fails when: The Office doesn't have 0 default parking spots
 
 testSetSpaces
 Rubric Score: 1.0/1.0
@@ -66,23 +81,13 @@ hierarchy
 ?Goal: The goal of this evaluation is to testCottageSingleFloor
 AReference: This Test fails when: The Single story cottage failed
 
-testBuildingLotArea
-Rubric Score: 1.0/1.0
-<Goal: The goal of this evaluation is to testBuildingLotArea
-EReference: This Test fails when: The Building lot area miscalculated
-
-testBuildingArea
-Rubric Score: 1.0/1.0
-9Goal: The goal of this evaluation is to testBuildingArea
-AReference: This Test fails when: The Building area miscalculated
-
-testOfficeConstructor
-Rubric Score: 1.0/1.0
->Goal: The goal of this evaluation is to testOfficeConstructor
-QReference: This Test fails when: The Office doesn't have 0 default parking spots
-
 Q----------Your solution missed points on the following grading rubrics:---------
 
+
+testOfficeString
+Rubric Score: 0.0/1.0
+9Goal: The goal of this evaluation is to testOfficeString
+KReference: This Test fails when: The Office toString() method is incorrect
 
 testOfficeEquals
 Rubric Score: 0.0/1.0
@@ -103,10 +108,5 @@ hierarchy
 Rubric Score: 0.0/1.0
 =Goal: The goal of this evaluation is to testNeighborhoodArea
 MReference: This Test fails when: The Neighborhood area calculation was wrong
-
-testOfficeString
-Rubric Score: 0.0/1.0
-9Goal: The goal of this evaluation is to testOfficeString
-KReference: This Test fails when: The Office toString() method is incorrect
 
 

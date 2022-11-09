@@ -69,11 +69,6 @@ Reference: This Test fails when: The Single story cottage failed
 ----------Your solution missed points on the following grading rubrics:---------
 
 
-testNeighborhoodArea
-Rubric Score: 0.0/1.0
-Goal: The goal of this evaluation is to testNeighborhoodArea
-Reference: This Test fails when: The Neighborhood area calculation was wrong
-
 testOfficeString
 Rubric Score: 0.0/1.0
 Goal: The goal of this evaluation is to testOfficeString
@@ -93,4 +88,9 @@ testHouseEquals
 Rubric Score: 0.0/1.0
 Goal: The goal of this evaluation is to testHouseEquals
 Reference: This Test fails when: The House equals method failed
+
+testNeighborhoodArea
+Rubric Score: 0.0/1.0
+Goal: The goal of this evaluation is to testNeighborhoodArea
+Reference: This Test fails when: The Neighborhood area calculation was wrong
 

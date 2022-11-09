@@ -14,10 +14,10 @@
             file="${:app*debug*sourceProvider*0*manifest*0}"
             line="11"
             column="10"
-            startOffset="332"
+            startOffset="385"
             endLine="11"
             endColumn="18"
-            endOffset="340"/>
+            endOffset="393"/>
     </incident>
 
 </incidents>
