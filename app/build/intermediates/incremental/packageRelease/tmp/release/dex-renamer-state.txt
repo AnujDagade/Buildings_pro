@@ -1,4 +1,4 @@
-#Wed Nov 09 12:59:30 UTC 2022
+#Wed Nov 09 13:09:12 UTC 2022
 base.0=/workspace/Buildings_pro/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mooc.vandy.java4android.buildings.logic.UnitTests" tests="17" skipped="0" failures="4" errors="0" timestamp="2022-11-09T12:59:25" hostname="anujdagade-buildingspro-tgb9o3ci6kf" time="0.911">
+<testsuite name="mooc.vandy.java4android.buildings.logic.UnitTests" tests="17" skipped="0" failures="4" errors="0" timestamp="2022-11-09T13:09:09" hostname="anujdagade-buildingspro-tgb9o3ci6kf" time="0.295">
   <properties/>
-  <testcase name="testCottageSecondFloor" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.106"/>
-  <testcase name="testHouseToString" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.092">
+  <testcase name="testCottageSecondFloor" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.061"/>
+  <testcase name="testHouseToString" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.007">
     <failure message="org.junit.ComparisonFailure: expected:&lt;...er: John Adams; has [a ]big open space&gt; but was:&lt;...er: John Adams; has []big open space&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;...er: John Adams; has [a ]big open space&gt; but was:&lt;...er: John Adams; has []big open space&gt;
 	at org.junit.Assert.assertEquals(Assert.java:117)
 	at org.junit.Assert.assertEquals(Assert.java:146)
@@ -21,7 +21,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="testOfficeEquals" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.095">
+  <testcase name="testOfficeEquals" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.002">
     <failure message="java.lang.AssertionError: expected:&lt;Business: o1 (total offices: 2)&gt; but was:&lt;Business: o2 (total offices: 2)&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;Business: o1 (total offices: 2)&gt; but was:&lt;Business: o2 (total offices: 2)&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -42,10 +42,10 @@
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="testOfficeArea" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.097"/>
-  <testcase name="testBuildingSetAndGet" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.003"/>
+  <testcase name="testOfficeArea" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.015"/>
+  <testcase name="testBuildingSetAndGet" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.012"/>
   <testcase name="testOfficeString" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.001"/>
-  <testcase name="testNeighborhoodArea" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.011">
+  <testcase name="testNeighborhoodArea" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.004">
     <failure message="java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;10&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;5&gt; but was:&lt;10&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -66,9 +66,9 @@
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="testBuildingLotArea" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.002"/>
-  <testcase name="testBuildingArea" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.001"/>
-  <testcase name="testHouseEquals" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.002">
+  <testcase name="testBuildingLotArea" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.008"/>
+  <testcase name="testBuildingArea" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.06"/>
+  <testcase name="testHouseEquals" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.001">
     <failure message="java.lang.AssertionError: expected:&lt;Owner: Thomas Jefferson;has a pool; has big open space&gt; but was:&lt;Owner: James Madison;has a pool; has big open space&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;Owner: Thomas Jefferson;has a pool; has big open space&gt; but was:&lt;Owner: James Madison;has a pool; has big open space&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -89,13 +89,13 @@
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="testOfficeConstructor" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.08"/>
-  <testcase name="testCottageSingleFloor" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.019"/>
-  <testcase name="testOfficeLotArea" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.092"/>
-  <testcase name="testHouseAreas" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.099"/>
-  <testcase name="testSetSpaces" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.006"/>
-  <testcase name="testHouseOwner" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.1"/>
-  <testcase name="testHousePool" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.096"/>
+  <testcase name="testOfficeConstructor" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.013"/>
+  <testcase name="testCottageSingleFloor" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.014"/>
+  <testcase name="testOfficeLotArea" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.001"/>
+  <testcase name="testHouseAreas" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.01"/>
+  <testcase name="testSetSpaces" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.06"/>
+  <testcase name="testHouseOwner" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.014"/>
+  <testcase name="testHousePool" classname="mooc.vandy.java4android.buildings.logic.UnitTests" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

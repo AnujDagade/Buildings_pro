@@ -57,7 +57,7 @@ public class House extends Building {
             msg +=   ";has a pool";
 
 
-        if(calcLotArea() > calcBuildingArea()) {
+        if((calcLotArea() - calcBuildingArea()) > calcBuildingArea()) {
             msg += "; has big open space";
         }
 

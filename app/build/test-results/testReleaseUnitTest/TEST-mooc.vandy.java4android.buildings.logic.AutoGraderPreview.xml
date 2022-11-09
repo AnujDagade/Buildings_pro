@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-09T12:59:17" hostname="anujdagade-buildingspro-tgb9o3ci6kf" time="1.191">
+<testsuite name="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-09T13:09:12" hostname="anujdagade-buildingspro-tgb9o3ci6kf" time="0.073">
   <properties/>
-  <testcase name="graderPreview" classname="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" time="1.191"/>
+  <testcase name="graderPreview" classname="mooc.vandy.java4android.buildings.logic.AutoGraderPreview" time="0.073"/>
   <system-out><![CDATA[
 
 Your assignment HAS NOT BEEN SUBMITTED. The following test results only
@@ -18,6 +18,11 @@ Coursera.
 --------Your solution received points for the following grading rubrics:--------
 
 
+testBuildingArea
+Rubric Score: 1.0/1.0
+Goal: The goal of this evaluation is to testBuildingArea
+Reference: This Test fails when: The Building area miscalculated
+
 testBuildingLotArea
 Rubric Score: 1.0/1.0
 Goal: The goal of this evaluation is to testBuildingLotArea
@@ -27,11 +32,6 @@ testBuildingSetAndGet
 Rubric Score: 2.0/2.0
 Goal: The goal of this evaluation is to testBuildingSetAndGet
 Reference: This Test fails when: 1 or more of the Building.Set/Get had a problem
-
-testBuildingArea
-Rubric Score: 1.0/1.0
-Goal: The goal of this evaluation is to testBuildingArea
-Reference: This Test fails when: The Building area miscalculated
 
 testOfficeString
 Rubric Score: 1.0/1.0
