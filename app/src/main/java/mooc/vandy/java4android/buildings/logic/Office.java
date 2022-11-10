@@ -1,5 +1,7 @@
 package mooc.vandy.java4android.buildings.logic;
 
+import org.jetbrains.annotations.NotNull;
+
 /**
  * This is the office class file, it is a subclass of Building.
  */
@@ -66,6 +68,20 @@ public class Office extends Building {
         msg += " (total offices: " +getTotalOffices()+ ")";
 
         return msg;
+    }
+
+    public boolean equals(@NotNull Object obj) {
+
+
+        if(obj instanceof Office) {
+             obj = (Office)obj;
+
+            if((this.calcBuildingArea()== ((Office) obj).calcBuildingArea()) && (this.getParkingSpaces() == ((Office) obj).getParkingSpaces())) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
 }

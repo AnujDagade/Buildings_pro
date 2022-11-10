@@ -68,10 +68,10 @@ public class House extends Building {
 
     @Override
     public boolean equals(Object obj) {
-        if(this == obj) {
-            House home = (House)obj;
-            if( (this.calcBuildingArea() == home.calcBuildingArea()) && (this.hasPool() == home.hasPool()) ) {
-                return false;
+        if(obj instanceof House) {
+            obj = (House)obj;
+            if( (this.calcBuildingArea() == ((House) obj).calcBuildingArea()) && (this.hasPool() == ((House)obj).hasPool()) ) {
+                return true;
             }
         }
 
